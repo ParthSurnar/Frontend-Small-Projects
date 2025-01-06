@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Gloria+Hallelujah&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    
+}
+
+body {
+    background-color: black;
+    z-index: 1;
+    
+}
+body{
+    padding-bottom: 90px;
+}
+
+.netflix {
+    background-image: url(assets/images/background.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: auto;
+    position: relative;
+    z-index: 10;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}
+
+nav {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+
+nav {
+    position: relative;
+    z-index: 999;
+}
+
+nav img {
+    position: relative;
+    z-index: 19;
+
+}
+
+@media only screen {
+    nav {
+        max-width: 1280px;
+    }
+}
+
+.english .englishsvg {
+    position: relative;
+    z-index: 99;
+    color: white;
+    visibility: visible;
+}
+
+nav .english {
+    z-index: 10;
+    padding: 5px 12px 5px 12px;
+    background: transparent;
+    border: 1px solid rgb(208, 208, 208, 0.4);
+    color: white;
+    cursor: pointer;
+}
+
+nav div {
+    display: flex;
+    gap: 14px;
+}
+
+nav .red {
+    padding: 5px 12px 5px 12px;
+    background-color: red;
+    border: 1px solid hsl(0, 100%, 50%);
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.netflix .box {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.67;
+    position: absolute;
+    top: 0;
+}
+
+.netflix .one {
+    display: flex;
+    align-items: center;
+    margin: 190px 0;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
+.one {
+    font-family: poppins;
+}
+
+/* > this is used for direct connection */
+.one> :first-child {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    /* line-height:0.9; */
+}
+
+.one> :nth-child(2) {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.one> :nth-child(3) {
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-weight: bold;
+    line-height: 3;
+}
+
+section h3 {
+    font-size: small;
+    font-weight: 300;
+    padding-top: 20px;
+    line-height: 1.5;
+}
+
+.netflix {
+    box-sizing: border-box;
+}
+
+.input {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.input input {
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(208, 208, 208, 0.4);
+    padding: 20px 221px 20px 12px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+section .input button {
+    background-color: red;
+    color: white;
+    padding: 14px 43px 14px 12px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.4rem;
+}
+
+.break {
+    border: 5px solid grey;
+}
+
+.trending {
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 28px;
+}
+
+.button2 {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.posters {
+    display: grid;
+    max-width: 80vw;
+    grid-row: auto;
+    margin: auto;
+    border: none;
+    grid-auto-flow: column;
+   
+    overflow: visible;
+    gap: 18px;
+    position: relative;
+    border-radius: 7px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    z-index: 6;
+
+}
+
+.trending {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.button2 {
+    padding: 12px 0px 22px 1px;
+
+}
+
+.button2 .india {
+    padding: 5px 25px 5px 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(208, 208, 208, 0.4);
+    cursor: pointer;
+}
+
+.button2 .movies {
+    padding: 5px 25px 5px 5px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(208, 208, 208, 0.4);
+    cursor: pointer;
+}
+
+.posters img {
+    border-radius: 7px;
+    transition: transform 0.7s ease-in-out, 0.7s ease;
+}
+
+.posters img:hover {
+    z-index: 999;
+    transform: scale(1.1);
+}
+ h2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    max-width: 80vw;
+    padding-top: 40px;
+    margin: auto;
+}
+.reason {
+    max-width: 80vw;
+    margin: auto;
+    display: grid;
+    padding-top: 37px;
+    grid-template-columns: repeat(4, 1fr);
+   
+
+}
+.grid2{
+    
+    height: 290px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 265px ;
+    border-radius: 12px ;
+    border: 2px solid grey;
+}
+.faq .box {
+    display: flex;
+    align-items: center;
+    background-color: rgb(53, 50, 50);
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    padding: 25px 13px 25px 10px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.faq .box:hover{
+  
+    background-color: rgb(112, 112, 112);
+}
+.faq svg{
+    color: white;
+    cursor: pointer;
+}
+.faq .box{
+   margin: 13px auto;
+    transition: all 1s ease-out;
+}
+.faq h3{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+}
+.para{
+    margin: 28px 0px;
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.itemflex  a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  
+}
+.break{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+a{
+    padding: 6px;
+}
+.faq:hover {
+    color: rgb(177, 172, 172);
+}

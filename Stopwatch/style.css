@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+#myh1{
+    font-size: 4rem;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 20px;
+}
+#display{
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.8%);
+    margin-bottom: 20px;
+}
+#controls button{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1.1rem;
+     min-width: 125px;
+     margin: 5px;
+     cursor: pointer;
+     border: none;
+     color: white;
+}
+#startBtn{
+    background-color: hsl(120, 100%, 38%);
+}
+#startBtn:hover{
+    transition: 0.3s ease;
+    background-color: hsl(120, 100%, 28%)
+}
+#stopBtn{
+    background-color: hsl(1, 100%, 63%);
+}
+#stopBtn:hover{
+    transition: 0.3s ease;
+    background-color: hsl(1, 100%, 43%);
+}
+#resetBtn{
+    background-color: hsl(230, 100%, 38%);
+}
+#resetBtn:hover{
+    transition: 0.3s ease;
+    background-color: hsl(202, 100%, 51%)
+}

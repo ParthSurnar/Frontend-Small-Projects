@@ -1,0 +1,17 @@
+{
+  "name": "06_twitter-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

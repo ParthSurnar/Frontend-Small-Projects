@@ -15,7 +15,8 @@ body{
 }
 
 .container{
-    width: 246px;
+    width: 350px;
+    overflow: hidden;
 }
 
 .container .text{
@@ -43,7 +44,7 @@ body{
 
 @keyframes animate {
      40% , 60%{
-        left: 100%
+        left: calc(100% + 4px) 
      }
      100%{
         left: 0%;

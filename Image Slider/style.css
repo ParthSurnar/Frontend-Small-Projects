@@ -11,3 +11,7 @@
 img.displaySlide{
     display: block;
 }
+
+body{
+    background-color: rgb(17, 1, 16);
+}
